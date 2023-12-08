@@ -31,11 +31,35 @@ Your decision – either Bank A or Bank B.
 
 Write a JAVA program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.
 
+**Music.java**
+
+Write a Java program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.
+
 **MyCalculatorApp.java**
 
 Write a JAVA program to Compute the power of a number by implementing a calculator. Create a class MyCalculator which consists of a single method long power(int, int).   
 This method takes two integers, n and p, as parameters and finds np.   
 If either n or p is negative, then the method must throw an exception which says “n or p should not be negative”. Also, if both n and p are zero, then the method must throw an exception which says “n and p should not be zero”
+
+**Remove.java**
+
+Given an array arr[] of n integrs which are to be put in an ArrayList and an integer k. Iterate the Array List using iterator and remove all the numbers of the ArrayList which are less than k. And then return the sorted ArrayList.  
+
+*Example 1:*  
+
+*Input:* n = 5, k = 8, arr[] = {1, 6, 9, 2, 11}  
+*Output:* [9,11]    
+*Explanation:* The numbers 1, 6 and 2 are less than 8, and so they are removed.
+
+*Example 2:*
+
+*Input:* n = 4, k = 13, arr[] = {1, 4, 6, 9}  
+*Output:* []  
+*Explanation:* All the numbers are less than 13, and so they are removed.
+
+*Your Task:*   
+You don't need to read input or print anything. Your task is to complete the function javaIterator() which takes 2 Integers n, k, and an array arr[] of n integers as input and returns a sorted ArrayList after removing all elements less than k.  
+*Expected Time Complexity:* O(n)
 
 **Solution.java**
 
@@ -63,6 +87,10 @@ float 4.0 1.5
 JohnDoe  
 3   
 5.5  
+
+**Split.java**
+
+Write a JAVA program that accepts comma-separated strings, sorts the strings in ascending order, and outputs the concatenated string of sorted strings.
 
 **StackDemo.java**
 
