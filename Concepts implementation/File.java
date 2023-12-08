@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class file {
+public class File {
     public static void main(String[] args){
         try{
             FileOutputStream fs = new FileOutputStream("file.txt",true);
