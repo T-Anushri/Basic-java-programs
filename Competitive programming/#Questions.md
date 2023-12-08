@@ -23,6 +23,10 @@ The loan repayment happens at a monthly frequency and Equated Monthly Installmen
 *Output Format:*  
 Your decision – either Bank A or Bank B.  
 
+**Count.java**
+
+ Java Program to Count the Occurrences of Each Character in String.
+
 **Flight.java**
 
 Write a JAVA program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.
@@ -79,3 +83,7 @@ The first character of the username must be an alphabetic character, i.e., eithe
 + ? = INVALID; ‘?’ character not allowed  
 
 Update the value of regularExpression field in the UsernameValidator class so that the regular expression only matches with valid usernames.
+
+**VowelsConsonants.java**
+
+Write a Java Program to Count Vowels and Consonants in a String.
