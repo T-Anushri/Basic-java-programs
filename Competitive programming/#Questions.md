@@ -8,6 +8,13 @@ Write a JAVA program, where it has defined a class Solution with a main method.
 Complete the given code so that it outputs the area of a parallelogram with breadth B and height H. You should read the variables from the standard input.  
 If B <= 0 or H <= 0, the output should be “java.lang.Exception: Breadth and height must be positive” without quotes.
 
+**Sorting.java**
+
+Write a JAVA program to sort the array alternately i.e first element should be max value, second min value, third second max, third second min.   
+*Example:*   
+Input: arr[] = {1,2,3,4,5,6,7}   
+Output: {7,1,6,2,5,3,4}
+
 **StackDemo.java**
 
 Write a JAVA program implementing Stack ADT using class template & perform the required operations like PUSH and POP. Pass int, float and char data types to the Stack class.
