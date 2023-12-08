@@ -1,3 +1,28 @@
+**Bank.java**
+
+Perform using JAVA. There are two banks; Bank A and Bank B. Their interest rates vary. You have received offers from both banks in terms of the annual rate of interest, tenure, and variations of the rate of 
+interest over the entire tenure. You have to choose the offer which costs you least interest and reject the other. Do the computation and make a wise choice. Save the input credentials and output in a file ‘bank.txt’.  
+The loan repayment happens at a monthly frequency and Equated Monthly Installment (EMI) is calculated using the formula given below :  
+***EMI = loanAmount * monthlyInterestRate / ( 1 – 1 / (1 + monthlyInterestRate)^(numberOfYears * 12))*** 
+
+*Constraints:*  
++ 1 <= P <= 1000000
++ 1 <=T <= 50
++ 1<= N1 <= 30
++ 1<= N2 <= 30
+  
+*Input Format:*  
++ First line : P – principal (Loan Amount)
++ Second line : T – Total Tenure (in years).
++ Third Line: N1 is the number of slabs of interest rates for a given period by Bank A. First slab starts from the first year and the second slab starts from the end of the first slab and so on.
++ Next N1 line will contain the interest rate and their period.
++ After N1 lines we will receive N2 viz. the number of slabs offered by the second bank.
++ Next N2 lines are the number of slabs of interest rates for a given period by Bank B. The first slab starts from the first year and the second slab starts from the end of the first slab and so on.
++ The period and rate will be delimited by single white space.
+  
+*Output Format:*  
+Your decision – either Bank A or Bank B.  
+
 **Flight.java**
 
 Write a JAVA program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.
@@ -20,6 +45,20 @@ Write a JAVA program to sort the array alternately i.e first element should be m
 *Example:*   
 Input: arr[] = {1,2,3,4,5,6,7}   
 Output: {7,1,6,2,5,3,4}
+
+**Specalize.java**
+
+Perform using JAVA.You are given a main() function which takes a set of inputs. The type of input governs the kind of operation to be performed, i.e. concatenation for strings and addition for int or float.  
+You need to write the class template AddElements which has a function add() for giving the sum of int or float elements. You also need to write a template specialization for the type string with a function concatenate() to concatenate the second string to the first string.  
+*Sample Input:*  
+3  
+string John Doe   
+int 1 2   
+float 4.0 1.5  
+*Sample Output:*  
+JohnDoe  
+3   
+5.5  
 
 **StackDemo.java**
 
