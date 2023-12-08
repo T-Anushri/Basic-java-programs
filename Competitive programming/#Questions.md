@@ -2,6 +2,12 @@
 
 Write a JAVA program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.
 
+**MyCalculatorApp.java**
+
+Write a JAVA program to Compute the power of a number by implementing a calculator. Create a class MyCalculator which consists of a single method long power(int, int).   
+This method takes two integers, n and p, as parameters and finds np.   
+If either n or p is negative, then the method must throw an exception which says “n or p should not be negative”. Also, if both n and p are zero, then the method must throw an exception which says “n and p should not be zero”
+
 **Solution.java**
 
 Write a JAVA program, where it has defined a class Solution with a main method.   
