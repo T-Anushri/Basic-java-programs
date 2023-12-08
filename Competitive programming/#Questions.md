@@ -1,4 +1,4 @@
-**Bank.java**
+**1. Bank.java**
 
 Perform using JAVA. There are two banks; Bank A and Bank B. Their interest rates vary. You have received offers from both banks in terms of the annual rate of interest, tenure, and variations of the rate of 
 interest over the entire tenure. You have to choose the offer which costs you least interest and reject the other. Do the computation and make a wise choice. Save the input credentials and output in a file ‘bank.txt’.  
@@ -23,25 +23,25 @@ The loan repayment happens at a monthly frequency and Equated Monthly Installmen
 *Output Format:*  
 Your decision – either Bank A or Bank B.  
 
-**Count.java**
+**2. Count.java**
 
  Java Program to Count the Occurrences of Each Character in String.
 
-**Flight.java**
+**3. Flight.java**
 
 Write a JAVA program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.
 
-**Music.java**
+**4. Music.java**
 
 Write a Java program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.
 
-**MyCalculatorApp.java**
+**5. MyCalculatorApp.java**
 
 Write a JAVA program to Compute the power of a number by implementing a calculator. Create a class MyCalculator which consists of a single method long power(int, int).   
 This method takes two integers, n and p, as parameters and finds np.   
 If either n or p is negative, then the method must throw an exception which says “n or p should not be negative”. Also, if both n and p are zero, then the method must throw an exception which says “n and p should not be zero”
 
-**Remove.java**
+**6. Remove.java**
 
 Given an array arr[] of n integrs which are to be put in an ArrayList and an integer k. Iterate the Array List using iterator and remove all the numbers of the ArrayList which are less than k. And then return the sorted ArrayList.  
 
@@ -61,20 +61,20 @@ Given an array arr[] of n integrs which are to be put in an ArrayList and an int
 You don't need to read input or print anything. Your task is to complete the function javaIterator() which takes 2 Integers n, k, and an array arr[] of n integers as input and returns a sorted ArrayList after removing all elements less than k.  
 *Expected Time Complexity:* O(n)
 
-**Solution.java**
+**7. Solution.java**
 
 Write a JAVA program, where it has defined a class Solution with a main method.   
 Complete the given code so that it outputs the area of a parallelogram with breadth B and height H. You should read the variables from the standard input.  
 If B <= 0 or H <= 0, the output should be “java.lang.Exception: Breadth and height must be positive” without quotes.
 
-**Sorting.java**
+**8. Sorting.java**
 
 Write a JAVA program to sort the array alternately i.e first element should be max value, second min value, third second max, third second min.   
 *Example:*   
 Input: arr[] = {1,2,3,4,5,6,7}   
 Output: {7,1,6,2,5,3,4}
 
-**Specalize.java**
+**9. Specalize.java**
 
 Perform using JAVA.You are given a main() function which takes a set of inputs. The type of input governs the kind of operation to be performed, i.e. concatenation for strings and addition for int or float.  
 You need to write the class template AddElements which has a function add() for giving the sum of int or float elements. You also need to write a template specialization for the type string with a function concatenate() to concatenate the second string to the first string.  
@@ -88,15 +88,15 @@ JohnDoe
 3   
 5.5  
 
-**Split.java**
+**10. Split.java**
 
 Write a JAVA program that accepts comma-separated strings, sorts the strings in ascending order, and outputs the concatenated string of sorted strings.
 
-**StackDemo.java**
+**11. StackDemo.java**
 
 Write a JAVA program implementing Stack ADT using class template & perform the required operations like PUSH and POP. Pass int, float and char data types to the Stack class.
 
-**UserName.java**
+**12. UserName.java**
 
 Perform the following in JAVA. You are updating the username policy on your company’s internal networking platform. According to the policy, a username is considered valid if all the following constraints are satisfied:  
 The username consists of 8 to 30 characters inclusive. If the username consists of less than 8 or greater than 30 characters, then it is an invalid username.  
@@ -112,6 +112,6 @@ The first character of the username must be an alphabetic character, i.e., eithe
 
 Update the value of regularExpression field in the UsernameValidator class so that the regular expression only matches with valid usernames.
 
-**VowelsConsonants.java**
+**13. VowelsConsonants.java**
 
 Write a Java Program to Count Vowels and Consonants in a String.
