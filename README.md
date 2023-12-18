@@ -1,6 +1,6 @@
 # Basic-java-programs
 
-**Concepts Implementation** folder consists of programs demonstrating JAVA concepts such as:
+**Concepts implementation** folder consists of programs demonstrating JAVA concepts such as:
 + Constructors and Destructor
 + Method overloading
 + Array lists
